@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ghost-hunters-almanac/static/css/main.e6c13ad2.css",
+    "main.js": "/ghost-hunters-almanac/static/js/main.79c93926.js",
+    "static/js/453.1c2c05a1.chunk.js": "/ghost-hunters-almanac/static/js/453.1c2c05a1.chunk.js",
+    "index.html": "/ghost-hunters-almanac/index.html",
+    "main.e6c13ad2.css.map": "/ghost-hunters-almanac/static/css/main.e6c13ad2.css.map",
+    "main.79c93926.js.map": "/ghost-hunters-almanac/static/js/main.79c93926.js.map",
+    "453.1c2c05a1.chunk.js.map": "/ghost-hunters-almanac/static/js/453.1c2c05a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.79c93926.js"
+  ]
+}
