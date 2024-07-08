@@ -4,11 +4,52 @@ export const difficulties = [
     'Amateur',
     'Intermediate',
     'Professional',
-    'Nightmare'
+    'Nightmare',
+    "Insanity",
+    "Challenge",
+    "Apocalypse 1",
+    "Apocalypse 2",
+    "Apocalypse 3"
 ]
 
-export const BleasdaleFarmhouse: GameMap = {
-    type: "Bleasdale_Farmhouse",
+export const Tanglewood: GameMap = {
+    type: "Tanglewood",
+    name: "6 Tanglewood Drive",
+    size: "small",
+    floors: 2,
+    keys: ['Main Door Key', 'Car Key'],
+    images: ['Tangle_Wood_Street_House_Map_1.1.png']
+}
+
+export const Ridgeview: GameMap = {
+    type: "Ridgeview",
+    name: "10 Ridgeview Court",
+    size: "small",
+    floors: 3,
+    keys: ['Main Door Key'],
+    images: ['RidgeviewRoadHouse_Map.jpg']
+}
+
+export const Willow: GameMap = {
+    type: "Willow",
+    name: "13 Willow Street",
+    size: "small",
+    floors: 2,
+    keys: ['Main Door Key', 'Car Key'],
+    images: ['Willow_Street_House_Map.jpg']
+}
+
+export const Edgefield: GameMap = {
+    type: "Edgefield",
+    name: "42 Edgefield Road",
+    size: "small",
+    floors: 3,
+    keys: ['Main Door Key', 'Car Key'],
+    images: ['Edgefield_Street_House_Map.jpg']
+}
+
+export const Bleasdale: GameMap = {
+    type: "Bleasdale",
     name: "Bleasdale Farmhouse",
     size: "small",
     floors: 3,
@@ -16,17 +57,17 @@ export const BleasdaleFarmhouse: GameMap = {
     images: ['BleasdaleFarmHouseMap.jpg']
 }
 
-export const EdgefieldStreetHouse: GameMap = {
-    type: "Edgefield_Street_House",
-    name: "Edgefield Street House",
+export const Woodwind: GameMap = {
+    type: "Woodwind",
+    name: "Camp Woodwind",
     size: "small",
-    floors: 3,
-    keys: ['Main Door Key', 'Car Key'],
-    images: ['Edgefield_Street_House_Map.jpg']
+    floors: 1,
+    keys: ["Front Door Key"],
+    images: ["Woodwind.webp"]
 }
 
-export const GraftonFarmhouse: GameMap = {
-    type: "Grafton_Farmhouse",
+export const Grafton: GameMap = {
+    type: "Grafton",
     name: "Grafton Farmhouse",
     size: "small",
     floors: 2,
@@ -34,44 +75,17 @@ export const GraftonFarmhouse: GameMap = {
     images: ['GraftonFarmhouse_Map.jpg']
 }
 
-export const RidgeviewRoadHouse: GameMap = {
-    type: "Ridgeview_Road_House",
-    name: "Ridgeview Road House",
+export const PointHope: GameMap = {
+    type: "PointHope",
+    name: "Point Hope",
     size: "small",
-    floors: 3,
-    keys: ['Main Door Key'],
-    images: ['RidgeviewRoadHouse_Map.jpg']
+    floors: 10,
+    keys: ["Main Door Key", "Lantern Cabinet Key"],
+    images: ["PointHope.png"]
 }
 
-export const TanglewoodStreetHouse: GameMap = {
-    type: "Tanglewood_Street_House",
-    name: "Tanglewood Street House",
-    size: "small",
-    floors: 2,
-    keys: ['Main Door Key', 'Car Key'],
-    images: ['Tangle_Wood_Street_House_Map_1.1.png']
-}
-
-export const WillowStreetHouse: GameMap = {
-    type: "Willow_Street_House",
-    name: "Willow Street House",
-    size: "small",
-    floors: 2,
-    keys: ['Main Door Key', 'Car Key'],
-    images: ['Willow_Street_House_Map.jpg']
-}
-
-export const BrownstoneHighSchool: GameMap = {
-    type: "Brownstone_High_School",
-    name: "Brownstone High School",
-    size: "medium",
-    floors: 2,
-    keys: ['Main Door Key'],
-    images: ['BrownstoneHighSchool_Map.jpg']
-}
-
-export const MapleLodgeCampsite: GameMap = {
-    type: "Maple_Lodge_Campsite",
+export const MapleLodge: GameMap = {
+    type: "MapleLodge",
     name: "Maple Lodge Campsite",
     size: "medium",
     floors: 3,
@@ -88,25 +102,45 @@ export const Prison: GameMap = {
     images: ['Prison_Map.png']
 }
 
-export const Asylum: GameMap = {
-    type: "Asylum",
-    name: "Asylum",
+export const SunnyMeadowsRestricted: GameMap = {
+    type: "SunnyMeadowsRestricted",
+    name: "Sunny Meadows Mental Institution (Restricted)",
+    size: "medium",
+    floors: 2,
+    keys: ['Main Door Key'],
+    images: ['AsylumMap.jpg']
+}
+
+export const Brownstone: GameMap = {
+    type: "Brownstone",
+    name: "Brownstone High School",
+    size: "large",
+    floors: 2,
+    keys: ['Main Door Key'],
+    images: ['BrownstoneHighSchool_Map.jpg']
+}
+
+export const SunnyMeadows: GameMap = {
+    type: "SunnyMeadows",
+    name: "Sunny Meadows Mental Institution",
     size: "large",
     floors: 2,
     keys: ['Main Door Key'],
     images: ['AsylumMap.jpg']
 }
 
-
 export const Maps = [
-    BleasdaleFarmhouse,
-    EdgefieldStreetHouse,
-    GraftonFarmhouse,
-    RidgeviewRoadHouse,
-    TanglewoodStreetHouse,
-    WillowStreetHouse,
-    BrownstoneHighSchool,
-    MapleLodgeCampsite,
+    Tanglewood,
+    Ridgeview,
+    Willow,
+    Edgefield,
+    Bleasdale,
+    Woodwind,
+    Grafton,
+    PointHope,
+    MapleLodge,
     Prison,
-    Asylum
+    SunnyMeadowsRestricted,
+    Brownstone,
+    SunnyMeadows
 ]

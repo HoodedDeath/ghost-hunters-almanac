@@ -43,7 +43,12 @@ export const RandomMapControls = ({ mapSharedState, difficultySharedState }: Pro
                 newMap = maps[randomNum];
             } while (map?.name === newMap && maps.length > 1);
 
-            setMap(Maps.find(m => m.name === newMap));
+            let found = Maps.find(m => m.name === newMap);
+            if (found === undefined) {
+                alert(`Randomly generated map return undefined! Please clear cookies for site. If that does not fix it, please report to GitHub with as much info as possible.\n\nBasic info for report:\nnewMap: ${newMap}\nmapsSharedState.get(): ${mapsSharedState.get()}`);
+            } else {
+                setMap(found)
+            }
         }
         const difficulties = difficultiesSharedState.get();
         if (difficulties.length > 0) {

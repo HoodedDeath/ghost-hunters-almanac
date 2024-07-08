@@ -8,7 +8,7 @@ export const PageFooter = () => {
 
     return (
         <Footer background="dark-1" pad="small" justify="end">
-            <FooterItem icon={<FontAwesomeIcon icon={faGithub} />} label='GitHub' link='https://github.com/smilligan93/ghost-hunters-almanac'/>
+            <FooterItem icon={<FontAwesomeIcon icon={faGithub} />} label='GitHub' link='https://github.com/HoodedDeath/ghost-hunters-almanac'/>
         </Footer>
     )
 }
